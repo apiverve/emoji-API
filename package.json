@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/emoji",
+  "version": "1.0.0",
+  "description": "Emoji is a simple tool for getting emoji data. It returns the emoji name, category, and more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/emoji-API.git"
+  },
+  "keywords": [
+    "emoji"," emoji api"," emoji tool"," emoji software"," emoji service"," emoji library"," emoji sdk"," emoji code"," emoji script"," emoji program"," emoji application"," emoji app"," emoji utility"," emoji helper"," emoji helper tool"," emoji helper software"," emoji helper service"," emoji helper library"," emoji helper sdk"," emoji helper code"," emoji helper script"," emoji helper program"," emoji helper application"," emoji helper app"," emoji helper tool"," emoji helper utility"," emoji helper"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/emoji-API/issues"
+  },
+  "homepage": "https://github.com/apiverve/emoji-API",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "3.3.2",
+    "promise": "^7.1.1",
+    "request": "^2.69.0"
+  }
+}
