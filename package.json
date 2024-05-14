@@ -11,7 +11,7 @@
     "url": "git+https://github.com/apiverve/emoji-API.git"
   },
   "keywords": [
-    "emoji"," emoji api"," emoji tool"," emoji software"," emoji service"," emoji library"," emoji sdk"," emoji code"," emoji script"," emoji program"," emoji application"," emoji app"," emoji utility"," emoji helper"," emoji helper tool"," emoji helper software"," emoji helper service"," emoji helper library"," emoji helper sdk"," emoji helper code"," emoji helper script"," emoji helper program"," emoji helper application"," emoji helper app"," emoji helper tool"," emoji helper utility"," emoji helper"
+    "emoji","emoji api","emoji tool","emoji software","emoji service"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
@@ -27,6 +27,6 @@
   "dependencies": {
     "node-fetch": "3.3.2",
     "promise": "^7.1.1",
-    "request": "^2.69.0"
+    "axios": "^0.15.3"
   }
 }
