@@ -1,4 +1,4 @@
-Emoji API
+Emoji Lookup API
 ============
 
 Emoji is a simple tool for getting emoji data. It returns the emoji name, category, and more.
@@ -7,7 +7,7 @@ Emoji is a simple tool for getting emoji data. It returns the emoji name, catego
 ![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
 ![Prod Ready](https://img.shields.io/badge/production-ready-blue)
 
-This is a Javascript Wrapper for the [Emoji API](https://apiverve.com/marketplace/api/emoji)
+This is a Javascript Wrapper for the [Emoji Lookup API](https://apiverve.com/marketplace/api/emoji)
 
 ---
 
@@ -25,7 +25,7 @@ You can get it by signing up at [https://apiverve.com](https://apiverve.com)
 
 ## Usage
 
-The Emoji API documentation is found here: [https://docs.apiverve.com/api/emoji](https://docs.apiverve.com/api/emoji).  
+The Emoji Lookup API documentation is found here: [https://docs.apiverve.com/api/emoji](https://docs.apiverve.com/api/emoji).  
 You can find parameters, example responses, and status codes documented here.
 
 ### Setup
@@ -48,7 +48,7 @@ Using the API client, you can perform requests to the API.
 
 ```
 var query = {
-  tag: "smile"
+  emoji: "🥳"
 };
 ```
 
@@ -74,19 +74,19 @@ api.execute(query, function (error, data) {
     "count": 1,
     "emojisFound": [
       {
-        "emoji": "😀",
-        "description": "grinning face",
+        "emoji": "🥳",
+        "description": "partying face",
         "category": "Smileys & Emotion",
         "aliases": [
-          "grinning"
+          "partying_face"
         ],
         "tags": [
-          "smile",
-          "happy"
+          "celebration",
+          "birthday"
         ],
-        "unicode_version": "6.1",
-        "ios_version": "6.0",
-        "codePoint": "1f600"
+        "unicode_version": "11.0",
+        "ios_version": "12.1",
+        "codePoint": "1f973"
       }
     ]
   }
