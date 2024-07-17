@@ -33,7 +33,7 @@ class emojiWrapper {
             query = {};
         }
 
-        var requiredParams = ["tag"];
+        var requiredParams = ["emoji"];
         if (requiredParams.length > 0) {
             for (var i = 0; i < requiredParams.length; i++) {
                 if (!query[requiredParams[i]]) {
