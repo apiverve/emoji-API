@@ -89,7 +89,8 @@ api.execute(query, function (error, data) {
         "codePoint": "1f973"
       }
     ]
-  }
+  },
+  "code": 200
 }
 ```
 
